@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# AI models
+models/
+*.safetensors
+*.ckpt
+*.pth
+*.bin
+
+# Generated media
+outputs/*
+*.mp4
+*.webm
+*.mov
+*.wav
+*.png
+*.jpg
+*.jpeg
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
