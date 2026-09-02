@@ -1,27 +1,14 @@
 # Python
 __pycache__/
 *.py[cod]
+*.class
+
+# Virtual environment
 .venv/
 venv/
+env/
 
-# AI models
-models/
-*.safetensors
-*.ckpt
-*.pth
-*.bin
-
-# Generated media
-outputs/*
-*.mp4
-*.webm
-*.mov
-*.wav
-*.png
-*.jpg
-*.jpeg
-
-# Environment
+# Environment variables / secrets
 .env
 .env.*
 !.env.example
@@ -31,5 +18,31 @@ outputs/*
 .idea/
 
 # OS
-Thumbs.db
 .DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Generated media
+outputs/*
+!outputs/.gitkeep
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
